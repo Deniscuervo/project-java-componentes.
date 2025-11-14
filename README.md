@@ -1,18 +1,40 @@
-## Getting Started
+# project-java-componentes
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Proyecto realizado para la actividad GA1-220501096-04-AA1-EV04 – Modelado de clases en Java.
 
-## Folder Structure
+## Descripción
+El proyecto modela componentes vehiculares aplicando POO (encapsulación, modularidad y reutilización).  
+Incluye clases como Vehiculo, Motor, Transmision, Chasis, Neumatico, Sensor, etc.
 
-The workspace contains two folders by default, where:
+## Diagrama conceptual
+Vehiculo
+ ├─ Motor
+ ├─ Transmision
+ ├─ Chasis
+ ├─ Neumatico
+ ├─ SistemaElectrico
+ ├─ SistemaFrenos
+ ├─ RegistroVehicular
+ ├─ Mantenimiento
+ └─ Sensor
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Ejecución
+Salida esperada:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Vehículo:
+ID: VH001
+Marca: Toyota
+Modelo: Corolla
+Motor:
+Tipo: Gasolina
+Cilindrada: 1800
+Potencia: 140 HP
+Transmisión:
+Tipo: Automática
+Marchas: 6
+Tracción: 4x2
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+RESULTADO DE EJECUCION EN IMAGEN 
+![
+    
+](image-1.png)
